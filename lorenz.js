@@ -40,10 +40,10 @@ function draw() {
 }
 function keyPressed() {
   if (key === 's') {
-    // 'out' isim deseniyle, 5 frame, her frame 1 saniyede
+   
     saveFrames('out', 'png', 5, 1, data => {
       print('Frames Saved');
-      // Burada 'data' dizisi kaydedilen frame'lerin bilgilerini içerir
+     
     });
   }
 }
